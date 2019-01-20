@@ -6,10 +6,13 @@
 
   &__item {
     color: #81b300;
+    transition-duration: .5s;
 
     &:hover {
       text-decoration: none;
       color: #81b300;
+      box-shadow: 0 10px 20px $darkColor;
+      transform: scale(2);
     }
   }
 
